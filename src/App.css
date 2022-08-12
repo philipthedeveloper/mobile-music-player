@@ -1,0 +1,45 @@
+::root {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(215, 228, 244);
+  max-width: 280px;
+  margin: auto;
+}
+
+#root {
+  /* border-radius: 2rem;
+  box-shadow: 0px 0px 8px rgb(128, 101, 231);
+  width: 90%; */
+  max-width: 280px;
+  min-width: 280px;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  background-color: #fff;
+  padding: 1.5rem;
+  overflow-y: scroll;
+  padding-bottom: 6rem;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+#home {
+  color: rgb(128, 101, 231) !important;
+}
